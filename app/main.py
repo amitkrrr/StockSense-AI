@@ -6,7 +6,7 @@ from app.services.news_fetcher import fetch_news_for_ticker
 app = FastAPI(
     title="StockSense AI",
     description="AI-powered stock market sentiment analyzer",
-    version="1.0.0"
+    version="1.0"
 )
 
 @app.get("/")
